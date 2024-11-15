@@ -1,0 +1,42 @@
+[0.024s] Invoking command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy /usr/bin/cmake /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3 -DCMAKE_INSTALL_PREFIX=/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2
+[0.055s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.100s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.480s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.495s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.560s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.566s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.896s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.899s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.162s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.370s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.446s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.686s] -- Configuring done
+[1.757s] -- Generating done
+[1.761s] -- Build files have been written to: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2
+[1.781s] Invoked command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy /usr/bin/cmake /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3 -DCMAKE_INSTALL_PREFIX=/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2
+[1.787s] Invoking command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2 -- -j8 -l8
+[1.929s] [100%] Built target mono_inertial
+[1.930s] [100%] Built target mono
+[1.955s] Invoked command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2 -- -j8 -l8
+[2.034s] Invoking command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2
+[2.051s] -- Install configuration: ""
+[2.052s] -- Execute custom install script
+[2.053s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib/orb_slam3_ros2/mono_inertial
+[2.054s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib/orb_slam3_ros2/mono
+[2.054s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/ament_index/resource_index/package_run_dependencies/orb_slam3_ros2
+[2.055s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/ament_index/resource_index/parent_prefix_path/orb_slam3_ros2
+[2.055s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/ament_prefix_path.sh
+[2.056s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/ament_prefix_path.dsv
+[2.056s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/path.sh
+[2.057s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/path.dsv
+[2.058s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.bash
+[2.058s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.sh
+[2.059s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.zsh
+[2.059s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.dsv
+[2.060s] -- Symlinking: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.dsv
+[2.079s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/ament_index/resource_index/packages/orb_slam3_ros2
+[2.080s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/cmake/orb_slam3_ros2Config.cmake
+[2.080s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/cmake/orb_slam3_ros2Config-version.cmake
+[2.081s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.xml
+[2.086s] Invoked command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2

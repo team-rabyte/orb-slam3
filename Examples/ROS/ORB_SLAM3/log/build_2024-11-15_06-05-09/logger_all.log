@@ -1,0 +1,105 @@
+[0.449s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.449s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff99acd340>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff99acd340>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff999fe850>)
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.809s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.839s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'orb_slam3_ros2'
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.906s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install
+[0.908s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/nvidia/projects/a2rl/install
+[0.910s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'orb_slam3_ros2' build argument 'cmake_args' from command line to 'None'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'orb_slam3_ros2' build argument 'cmake_target' from command line to 'None'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'orb_slam3_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'orb_slam3_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'orb_slam3_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'orb_slam3_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'orb_slam3_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'orb_slam3_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'orb_slam3_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.042s] DEBUG:colcon.colcon_core.verb:Building package 'orb_slam3_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2', 'merge_install': False, 'path': '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3', 'symlink_install': False, 'test_result_base': None}
+[1.042s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.045s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3' with build type 'ament_cmake'
+[1.046s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3'
+[1.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.050s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2 -- -j8 -l8
+[38.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2 -- -j8 -l8
+[38.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2
+[38.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orb_slam3_ros2)
+[38.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2
+[38.838s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2' for CMake module files
+[38.839s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2' for CMake config files
+[38.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('orb_slam3_ros2', 'cmake_prefix_path')
+[38.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/hook/cmake_prefix_path.ps1'
+[38.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/hook/cmake_prefix_path.dsv'
+[38.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/hook/cmake_prefix_path.sh'
+[38.850s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib'
+[38.850s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/bin'
+[38.850s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib/pkgconfig/orb_slam3_ros2.pc'
+[38.851s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib/python3.8/site-packages'
+[38.852s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/bin'
+[38.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.ps1'
+[38.855s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.dsv'
+[38.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.sh'
+[38.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.bash'
+[38.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.zsh'
+[38.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/colcon-core/packages/orb_slam3_ros2)
+[38.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orb_slam3_ros2)
+[38.914s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2' for CMake module files
+[38.916s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2' for CMake config files
+[38.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('orb_slam3_ros2', 'cmake_prefix_path')
+[38.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/hook/cmake_prefix_path.ps1'
+[38.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/hook/cmake_prefix_path.dsv'
+[38.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/hook/cmake_prefix_path.sh'
+[38.923s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib'
+[38.924s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/bin'
+[38.924s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib/pkgconfig/orb_slam3_ros2.pc'
+[38.925s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib/python3.8/site-packages'
+[38.925s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/bin'
+[38.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.ps1'
+[38.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.dsv'
+[38.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.sh'
+[38.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.bash'
+[38.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.zsh'
+[38.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/colcon-core/packages/orb_slam3_ros2)
+[38.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[38.935s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[38.935s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[38.936s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[38.949s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[38.949s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[38.949s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[38.989s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[38.991s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/local_setup.ps1'
+[38.994s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/_local_setup_util_ps1.py'
+[38.998s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/setup.ps1'
+[39.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/local_setup.sh'
+[39.003s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/_local_setup_util_sh.py'
+[39.005s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/setup.sh'
+[39.008s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/local_setup.bash'
+[39.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/setup.bash'
+[39.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/local_setup.zsh'
+[39.013s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/setup.zsh'

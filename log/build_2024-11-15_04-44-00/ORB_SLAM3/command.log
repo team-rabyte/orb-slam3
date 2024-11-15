@@ -1,0 +1,4 @@
+Invoking command in '/home/nvidia/projects/ORB_SLAM3/build/ORB_SLAM3': /usr/bin/cmake /home/nvidia/projects/ORB_SLAM3 -DCMAKE_INSTALL_PREFIX=/home/nvidia/projects/ORB_SLAM3/install/ORB_SLAM3
+Invoked command in '/home/nvidia/projects/ORB_SLAM3/build/ORB_SLAM3' returned '0': /usr/bin/cmake /home/nvidia/projects/ORB_SLAM3 -DCMAKE_INSTALL_PREFIX=/home/nvidia/projects/ORB_SLAM3/install/ORB_SLAM3
+Invoking command in '/home/nvidia/projects/ORB_SLAM3/build/ORB_SLAM3': /usr/bin/cmake --build /home/nvidia/projects/ORB_SLAM3/build/ORB_SLAM3 -- -j8 -l8
+Invoked command in '/home/nvidia/projects/ORB_SLAM3/build/ORB_SLAM3' returned '0': /usr/bin/cmake --build /home/nvidia/projects/ORB_SLAM3/build/ORB_SLAM3 -- -j8 -l8

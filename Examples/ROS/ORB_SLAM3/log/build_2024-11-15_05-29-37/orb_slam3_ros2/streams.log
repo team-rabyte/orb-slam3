@@ -1,0 +1,1165 @@
+[0.022s] Invoking command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2
+[0.135s] -- The C compiler identification is GNU 9.4.0
+[0.229s] -- The CXX compiler identification is GNU 9.4.0
+[0.237s] -- Check for working C compiler: /usr/bin/cc
+[0.370s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.371s] -- Detecting C compiler ABI info
+[0.511s] -- Detecting C compiler ABI info - done
+[0.539s] -- Detecting C compile features
+[0.539s] -- Detecting C compile features - done
+[0.545s] -- Check for working CXX compiler: /usr/bin/c++
+[0.696s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.699s] -- Detecting CXX compiler ABI info
+[0.855s] -- Detecting CXX compiler ABI info - done
+[0.883s] -- Detecting CXX compile features
+[0.884s] -- Detecting CXX compile features - done
+[0.888s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.934s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.934s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.305s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.350s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.441s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.604s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.659s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.808s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.912s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.914s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.916s] -- Looking for pthread.h
+[2.056s] -- Looking for pthread.h - found
+[2.056s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.196s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.196s] -- Looking for pthread_create in pthreads
+[2.314s] -- Looking for pthread_create in pthreads - not found
+[2.314s] -- Looking for pthread_create in pthread
+[2.456s] -- Looking for pthread_create in pthread - found
+[2.459s] -- Found Threads: TRUE  
+[2.742s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.953s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[3.041s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[3.078s] -- Found OpenCV: /usr (found version "4.5.4") 
+[3.102s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[3.118s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[3.310s] -- Configuring done
+[3.381s] -- Generating done
+[3.385s] -- Build files have been written to: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2
+[3.406s] Invoked command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2
+[3.412s] Invoking command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2 -- -j8 -l8
+[3.493s] [35m[1mScanning dependencies of target mono[0m
+[3.494s] [35m[1mScanning dependencies of target mono_inertial[0m
+[3.662s] [ 25%] [32mBuilding CXX object CMakeFiles/mono_inertial.dir/src/ros_mono_inertial.cc.o[0m
+[3.664s] [ 50%] [32mBuilding CXX object CMakeFiles/mono.dir/src/ros_mono.cc.o[0m
+[12.701s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:30[m[K,
+[12.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[12.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[12.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[12.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[12.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[12.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[12.703s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[12.703s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[12.703s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[12.703s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[12.703s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.751s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:30[m[K,
+[12.752s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[12.752s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[12.752s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[12.752s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[12.752s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[12.753s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[12.753s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[12.753s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[12.753s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[12.753s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[12.753s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.909s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[12.909s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[12.909s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[12.909s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[12.909s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[12.910s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[12.910s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[12.910s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[12.910s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[12.910s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[12.910s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[12.910s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.911s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[12.911s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[12.911s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[12.911s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[12.911s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[12.911s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[12.911s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[12.912s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[12.912s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[12.912s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[12.912s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[12.912s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[12.912s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[12.912s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[12.912s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[12.912s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.913s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[12.913s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[12.957s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[12.957s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[12.957s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[12.957s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[12.957s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[12.957s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[12.958s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[12.958s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[12.958s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[12.958s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[12.958s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[12.958s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.958s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[12.959s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[12.959s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[12.959s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[12.959s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[12.959s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[12.959s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[12.959s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[12.959s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[12.960s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[12.960s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[12.960s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[12.960s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[12.960s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[12.960s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[12.960s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.961s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[12.961s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[12.962s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[12.962s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[12.962s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[12.963s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[12.963s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[12.963s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[12.963s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[12.963s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[12.963s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[12.963s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[12.963s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.964s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[12.964s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[12.964s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[12.964s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[12.964s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[12.964s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[12.964s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[12.965s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[12.965s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[12.965s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[12.965s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[12.965s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[12.965s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[12.965s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[12.965s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[12.966s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.966s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[12.966s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[12.966s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[12.966s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[12.966s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[12.966s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[12.967s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[12.967s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[12.967s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[12.967s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[12.967s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[12.967s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[12.967s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.967s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[12.968s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[12.968s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[12.968s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[12.968s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[12.968s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[12.968s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[12.968s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[12.968s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[12.969s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[12.969s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[12.969s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[12.969s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[12.969s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[12.969s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[12.969s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.969s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[12.970s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.056s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.056s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[13.056s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[13.057s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.057s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.057s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.057s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.057s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.057s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.057s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.058s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.058s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[13.058s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[13.058s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[13.058s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[13.058s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[13.058s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[13.059s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[13.059s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[13.059s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.059s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.059s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.059s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.059s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.059s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.060s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.060s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.060s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.060s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.060s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.060s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[13.060s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[13.060s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.061s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.061s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.061s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.061s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.061s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.061s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.061s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.062s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[13.062s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[13.062s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[13.062s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[13.062s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[13.062s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[13.062s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[13.062s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[13.063s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.063s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.063s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.063s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.063s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.063s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.063s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.063s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.064s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.719s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.719s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[13.719s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[13.720s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[13.720s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.720s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.720s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.720s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.720s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.720s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.721s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[13.721s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[13.721s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[13.721s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.721s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[13.721s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.721s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[13.721s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[13.722s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[13.722s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[13.722s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[13.722s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[13.722s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.722s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.722s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.723s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.723s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.723s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.723s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[13.723s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.723s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.723s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.762s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[13.762s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[13.763s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[13.763s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.763s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.763s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.763s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.763s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.763s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.764s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.764s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[13.764s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[13.764s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.764s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[13.764s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.764s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[13.764s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[13.765s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[13.765s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[13.765s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[13.765s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[13.765s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.765s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.765s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.765s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.766s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.766s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.766s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.766s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.766s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.766s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.780s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[13.780s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[13.780s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[13.780s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.780s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.781s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.781s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.781s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.781s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.781s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[13.781s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[13.781s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[13.781s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.782s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[13.782s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.782s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[13.782s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[13.782s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[13.783s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[13.783s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[13.783s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[13.783s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.783s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.783s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.783s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.784s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.784s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.784s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[13.784s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.784s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.784s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.823s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[13.823s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[13.823s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[13.823s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.824s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.824s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.824s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.824s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.824s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.824s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.824s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[13.824s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[13.825s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.825s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[13.825s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.825s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[13.825s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[13.825s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[13.825s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[13.825s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[13.826s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[13.826s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.826s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.826s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.826s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.826s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.826s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.827s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.827s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.827s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.827s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.842s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.843s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[13.843s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[13.843s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.843s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.843s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.843s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.844s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.844s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.844s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[13.844s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[13.844s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[13.844s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.844s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[13.844s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.845s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[13.845s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[13.845s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[13.845s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[13.845s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[13.845s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[13.845s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.846s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.846s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.846s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.846s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.846s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.846s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[13.846s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.846s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.847s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.847s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.847s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[13.847s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[13.847s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.847s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.847s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.848s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.848s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.848s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.848s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[13.848s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.848s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[13.848s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.848s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[13.849s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[13.849s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[13.849s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[13.849s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[13.849s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[13.849s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.849s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.849s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.850s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.850s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.850s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.850s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[13.850s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.850s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.850s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.887s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.887s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[13.888s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[13.888s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.888s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.888s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.888s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.888s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.888s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.889s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.889s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[13.889s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[13.889s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.889s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[13.889s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.889s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[13.889s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[13.890s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[13.890s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[13.890s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[13.890s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[13.890s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.890s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.890s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.891s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.891s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.891s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.891s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.891s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.891s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.891s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.891s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.892s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[13.892s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[13.892s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.892s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.892s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.892s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.892s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.892s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.893s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.893s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.893s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[13.893s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.893s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[13.893s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[13.893s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[13.893s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[13.894s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[13.894s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[13.894s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.894s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.894s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.894s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.894s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.895s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.895s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[13.895s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.895s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.895s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.993s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.993s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[13.994s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[13.994s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.994s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.994s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.994s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.994s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.994s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.995s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[13.995s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[13.995s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[13.995s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.995s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[13.995s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.995s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[13.995s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[13.996s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[13.996s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[13.996s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[13.996s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[13.996s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[13.996s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[13.996s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[13.997s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[13.997s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[13.997s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[13.997s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[13.997s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.997s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.997s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.023s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.023s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.023s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.023s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.023s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.024s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.024s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.024s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.024s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.024s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.024s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.024s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[14.025s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.025s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.025s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.025s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.025s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.025s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.025s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.025s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.026s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.026s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.026s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.026s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.026s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.026s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.026s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.026s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.027s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.038s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.039s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.039s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.039s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.039s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.039s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.039s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.040s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.040s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.040s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.040s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[14.040s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[14.040s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.040s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[14.041s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.041s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.041s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.041s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.041s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.041s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.041s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.041s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.042s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.042s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.042s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.042s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.042s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.042s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.042s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.042s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.043s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.068s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.069s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.069s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.069s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.069s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.069s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.069s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.069s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.070s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.070s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.070s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.070s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[14.070s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.070s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.070s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.071s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.071s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.071s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.071s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.071s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.071s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.071s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.071s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.072s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.072s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.072s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.072s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.072s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.072s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.147s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.148s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.148s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.148s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.148s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.148s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.148s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.148s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.149s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.149s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.149s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[14.149s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[14.149s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.149s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[14.149s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.150s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.150s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.150s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.150s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.150s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.150s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.150s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.150s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.151s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.151s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.151s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.151s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.151s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.151s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.151s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.151s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.152s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.152s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.152s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.152s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.152s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.152s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.152s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.152s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.153s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.153s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.153s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.153s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[14.153s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.153s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.153s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.154s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.154s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.154s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.154s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.154s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.154s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.154s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.154s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.155s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.155s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.155s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.155s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.155s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.155s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.191s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.192s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.192s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.192s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.192s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.192s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.192s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.192s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.192s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.193s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.193s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[14.193s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[14.193s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.193s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[14.193s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.193s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.194s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.194s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.194s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.194s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.194s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.194s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.194s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.194s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.195s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.195s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.195s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.195s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.195s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.195s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.195s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.195s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.196s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.196s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.196s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.196s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.196s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.196s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.196s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.196s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.197s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.197s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.197s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[14.197s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.197s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.197s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.197s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.198s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.198s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.198s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.198s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.198s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.198s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.198s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.198s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.199s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.199s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.199s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.199s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.199s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.585s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[14.585s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.586s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.586s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.586s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.586s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.586s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.586s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.587s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.587s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.587s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[14.587s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[14.587s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.587s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[14.587s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.588s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.588s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.588s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.588s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.588s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.588s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.588s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.588s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.589s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.589s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.589s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.589s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.589s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.589s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.589s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.589s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.626s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[14.627s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.627s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.627s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.627s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.627s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.627s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.628s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.628s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.628s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.628s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[14.628s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[14.628s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.628s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[14.629s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.629s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.629s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.629s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.629s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.629s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.629s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.629s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.630s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.630s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.630s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.630s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.630s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.630s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.630s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.630s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.631s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.652s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.653s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.653s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.653s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.653s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.653s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.653s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.654s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.654s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.654s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.654s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[14.654s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[14.654s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.654s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[14.655s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.655s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.655s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.655s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.655s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.655s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.655s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.656s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.656s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.656s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.656s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.656s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.656s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.656s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.656s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.657s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.657s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.657s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.657s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.657s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.657s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.657s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.657s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.658s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.658s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.658s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.658s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.658s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.658s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[14.658s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.659s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.659s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.659s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.659s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.659s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.659s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.659s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.659s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.660s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.660s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.660s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.660s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.660s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.660s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.660s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.660s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.695s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.695s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.695s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.696s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.696s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.696s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.696s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.696s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.696s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.696s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.697s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[14.697s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[14.697s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.697s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[14.697s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.697s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.697s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.698s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.698s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.698s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.698s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.698s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.698s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.698s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.698s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.699s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.699s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.699s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.699s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.699s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.699s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.699s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.699s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.700s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.700s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.700s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.700s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.700s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.700s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.700s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.700s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.701s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.701s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[14.701s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.701s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.701s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.701s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.701s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.701s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.702s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.703s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.703s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.703s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.703s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.744s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.744s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.745s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.745s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.745s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.745s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.745s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.745s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.745s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.746s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.746s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[14.746s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[14.746s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.746s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[14.746s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.746s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.747s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.747s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.747s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.747s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.747s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.747s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.747s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.747s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.748s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.748s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.748s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.748s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.748s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.748s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.748s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.775s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.775s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.775s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.776s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.776s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.776s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.776s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.776s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.776s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.776s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.776s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.777s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[14.777s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.777s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.777s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.777s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.777s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.777s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.778s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.778s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.778s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.778s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.778s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.778s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.778s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.778s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[14.779s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.779s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.779s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.787s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.788s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.788s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.788s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.788s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.788s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.788s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.788s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.789s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.789s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.789s] /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[14.789s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[14.789s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.789s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[14.789s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.789s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.790s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.790s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.790s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.790s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.790s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.790s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.790s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.791s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.791s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.791s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.791s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.791s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.791s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.791s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.791s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.819s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.819s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26[m[K,
+[14.819s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33[m[K,
+[14.819s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.819s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.820s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.820s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.820s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.820s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.820s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.820s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[14.820s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[14.820s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.821s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[14.821s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[14.821s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[14.821s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[14.821s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[14.821s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28[m[K,
+[14.821s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28[m[K,
+[14.821s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23[m[K,
+[14.822s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24[m[K,
+[14.822s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[14.822s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[14.822s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[14.822s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[14.822s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.822s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.823s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[16.224s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Atlas.h:27[m[K,
+[16.225s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:25[m[K,
+[16.225s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[16.225s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[16.225s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[16.225s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[16.226s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[16.226s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[16.226s]   102 |         const float [01;35m[Kprecision[m[K;
+[16.226s]       |                     [01;35m[K^~~~~~~~~[m[K
+[16.226s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[16.226s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[16.227s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[16.227s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Atlas.h:27[m[K,
+[16.227s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:25[m[K,
+[16.227s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[16.227s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[16.227s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[16.227s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[16.227s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[16.228s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[16.228s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[16.228s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Atlas.h:27[m[K,
+[16.228s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:25[m[K,
+[16.228s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[16.228s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[16.228s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[16.228s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono_inertial.cc:17[m[K:
+[16.229s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[16.229s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[16.229s]   102 |         const float [01;35m[Kprecision[m[K;
+[16.229s]       |                     [01;35m[K^~~~~~~~~[m[K
+[16.229s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[16.229s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[16.229s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[16.230s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[16.230s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[16.230s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[16.230s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[16.230s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[16.230s]   102 |         const float [01;35m[Kprecision[m[K;
+[16.230s]       |                     [01;35m[K^~~~~~~~~[m[K
+[16.230s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[16.231s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[16.231s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[16.231s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[16.231s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[16.231s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[16.246s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Atlas.h:27[m[K,
+[16.246s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:25[m[K,
+[16.246s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[16.246s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[16.247s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[16.247s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[16.247s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[16.247s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[16.247s]   102 |         const float [01;35m[Kprecision[m[K;
+[16.247s]       |                     [01;35m[K^~~~~~~~~[m[K
+[16.248s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[16.248s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[16.248s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[16.248s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Atlas.h:27[m[K,
+[16.248s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:25[m[K,
+[16.248s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[16.248s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[16.248s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[16.249s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[16.249s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[16.249s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[16.249s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[16.249s] In file included from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Atlas.h:27[m[K,
+[16.249s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:25[m[K,
+[16.249s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23[m[K,
+[16.250s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26[m[K,
+[16.250s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31[m[K,
+[16.250s]                  from [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17[m[K:
+[16.250s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[16.250s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[16.250s]   102 |         const float [01;35m[Kprecision[m[K;
+[16.251s]       |                     [01;35m[K^~~~~~~~~[m[K
+[16.251s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[16.251s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[16.251s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[16.251s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[16.251s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[16.251s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[16.252s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[16.252s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[16.252s]   102 |         const float [01;35m[Kprecision[m[K;
+[16.252s]       |                     [01;35m[K^~~~~~~~~[m[K
+[16.252s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[16.252s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[16.252s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[16.252s] [01m[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[16.253s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[16.253s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[41.211s] [ 75%] [32m[1mLinking CXX executable mono[0m
+[42.216s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+[42.216s] /usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.5
+[42.217s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[42.236s] [ 75%] Built target mono
+[47.488s] [100%] [32m[1mLinking CXX executable mono_inertial[0m
+[48.647s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+[48.647s] /usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.5
+[48.648s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[48.670s] [100%] Built target mono_inertial
+[48.699s] Invoked command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2 -- -j8 -l8
+[48.777s] Invoking command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2
+[48.797s] -- Install configuration: ""
+[48.798s] -- Execute custom install script
+[48.799s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib/orb_slam3_ros2/mono_inertial
+[48.799s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib/orb_slam3_ros2/mono
+[48.800s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/ament_index/resource_index/package_run_dependencies/orb_slam3_ros2
+[48.800s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/ament_index/resource_index/parent_prefix_path/orb_slam3_ros2
+[48.801s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/ament_prefix_path.sh
+[48.801s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/ament_prefix_path.dsv
+[48.802s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/path.sh
+[48.803s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/path.dsv
+[48.803s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.bash
+[48.804s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.sh
+[48.804s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.zsh
+[48.805s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.dsv
+[48.805s] -- Symlinking: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.dsv
+[48.826s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/ament_index/resource_index/packages/orb_slam3_ros2
+[48.826s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/cmake/orb_slam3_ros2Config.cmake
+[48.826s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/cmake/orb_slam3_ros2Config-version.cmake
+[48.827s] -- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.xml
+[48.833s] Invoked command in '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2

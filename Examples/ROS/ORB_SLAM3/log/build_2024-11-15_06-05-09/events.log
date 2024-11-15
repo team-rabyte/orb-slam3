@@ -1,0 +1,956 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (orb_slam3_ros2) JobQueued: {'identifier': 'orb_slam3_ros2', 'dependencies': OrderedDict()}
+[0.001334] (orb_slam3_ros2) JobStarted: {'identifier': 'orb_slam3_ros2'}
+[0.021685] (orb_slam3_ros2) JobProgress: {'identifier': 'orb_slam3_ros2', 'progress': 'cmake'}
+[0.023468] (orb_slam3_ros2) JobProgress: {'identifier': 'orb_slam3_ros2', 'progress': 'build'}
+[0.024790] (orb_slam3_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.21.233 52089 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/projects/ORB_SLAM3/lib:/home/rabyte/projects/ORB_SLAM3/lib:/home/nvidia/projects/a2rl/install/fc_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/projects/ORB_SLAM3'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install:/home/nvidia/projects/a2rl/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2:/home/nvidia/projects/a2rl/install/data_logger_interface:/home/nvidia/projects/a2rl/install/fc_interface:/home/nvidia/projects/a2rl/install/camera_interface:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.21.233 52089 192.168.21.81 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/projects/a2rl/install/data_logger_interface/lib/python3.8/site-packages:/home/nvidia/projects/a2rl/install/fc_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2:/home/nvidia/projects/a2rl/install/fc_interface:/home/nvidia/projects/a2rl/install/camera_interface:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy')]), 'shell': False}
+[0.099452] (-) TimerEvent: {}
+[0.121651] (orb_slam3_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mono\x1b[0m\n'}
+[0.171612] (orb_slam3_ros2) StdoutLine: {'line': b'[ 50%] Built target mono_inertial\n'}
+[0.199592] (-) TimerEvent: {}
+[0.224592] (orb_slam3_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mono.dir/src/ros_mono.cc.o\x1b[0m\n'}
+[0.299740] (-) TimerEvent: {}
+[0.400337] (-) TimerEvent: {}
+[0.501077] (-) TimerEvent: {}
+[0.601698] (-) TimerEvent: {}
+[0.702357] (-) TimerEvent: {}
+[0.802970] (-) TimerEvent: {}
+[0.903621] (-) TimerEvent: {}
+[1.004281] (-) TimerEvent: {}
+[1.105016] (-) TimerEvent: {}
+[1.205733] (-) TimerEvent: {}
+[1.306458] (-) TimerEvent: {}
+[1.407195] (-) TimerEvent: {}
+[1.507944] (-) TimerEvent: {}
+[1.608678] (-) TimerEvent: {}
+[1.709418] (-) TimerEvent: {}
+[1.809991] (-) TimerEvent: {}
+[1.910553] (-) TimerEvent: {}
+[2.011122] (-) TimerEvent: {}
+[2.111699] (-) TimerEvent: {}
+[2.212280] (-) TimerEvent: {}
+[2.312862] (-) TimerEvent: {}
+[2.413463] (-) TimerEvent: {}
+[2.514053] (-) TimerEvent: {}
+[2.614637] (-) TimerEvent: {}
+[2.715208] (-) TimerEvent: {}
+[2.815784] (-) TimerEvent: {}
+[2.916363] (-) TimerEvent: {}
+[3.016955] (-) TimerEvent: {}
+[3.117572] (-) TimerEvent: {}
+[3.218154] (-) TimerEvent: {}
+[3.318731] (-) TimerEvent: {}
+[3.419313] (-) TimerEvent: {}
+[3.519887] (-) TimerEvent: {}
+[3.620472] (-) TimerEvent: {}
+[3.721091] (-) TimerEvent: {}
+[3.822829] (-) TimerEvent: {}
+[3.923418] (-) TimerEvent: {}
+[4.024011] (-) TimerEvent: {}
+[4.124591] (-) TimerEvent: {}
+[4.225206] (-) TimerEvent: {}
+[4.325803] (-) TimerEvent: {}
+[4.426406] (-) TimerEvent: {}
+[4.526995] (-) TimerEvent: {}
+[4.627592] (-) TimerEvent: {}
+[4.728201] (-) TimerEvent: {}
+[4.828754] (-) TimerEvent: {}
+[4.929339] (-) TimerEvent: {}
+[5.029917] (-) TimerEvent: {}
+[5.130501] (-) TimerEvent: {}
+[5.231095] (-) TimerEvent: {}
+[5.331759] (-) TimerEvent: {}
+[5.432359] (-) TimerEvent: {}
+[5.533029] (-) TimerEvent: {}
+[5.633607] (-) TimerEvent: {}
+[5.734182] (-) TimerEvent: {}
+[5.834749] (-) TimerEvent: {}
+[5.935330] (-) TimerEvent: {}
+[6.035905] (-) TimerEvent: {}
+[6.136486] (-) TimerEvent: {}
+[6.237091] (-) TimerEvent: {}
+[6.337676] (-) TimerEvent: {}
+[6.438256] (-) TimerEvent: {}
+[6.538829] (-) TimerEvent: {}
+[6.639402] (-) TimerEvent: {}
+[6.739999] (-) TimerEvent: {}
+[6.840598] (-) TimerEvent: {}
+[6.941208] (-) TimerEvent: {}
+[7.041797] (-) TimerEvent: {}
+[7.142408] (-) TimerEvent: {}
+[7.242978] (-) TimerEvent: {}
+[7.343565] (-) TimerEvent: {}
+[7.444416] (-) TimerEvent: {}
+[7.545864] (-) TimerEvent: {}
+[7.646492] (-) TimerEvent: {}
+[7.747110] (-) TimerEvent: {}
+[7.847704] (-) TimerEvent: {}
+[7.948281] (-) TimerEvent: {}
+[8.048848] (-) TimerEvent: {}
+[8.149439] (-) TimerEvent: {}
+[8.250032] (-) TimerEvent: {}
+[8.350613] (-) TimerEvent: {}
+[8.451186] (-) TimerEvent: {}
+[8.551764] (-) TimerEvent: {}
+[8.652394] (-) TimerEvent: {}
+[8.752976] (-) TimerEvent: {}
+[8.853628] (-) TimerEvent: {}
+[8.954223] (-) TimerEvent: {}
+[9.054819] (-) TimerEvent: {}
+[9.155415] (-) TimerEvent: {}
+[9.198031] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:30\x1b[m\x1b[K,\n'}
+[9.198572] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.198751] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.198931] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.199089] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.199237] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.199383] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[9.199523] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[9.199661] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/ImuTypes.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.199804] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/ImuTypes.h:204:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[9.199947] (orb_slam3_ros2) StderrLine: {'line': b'  204 |         for(int i=0; \x1b[01;35m\x1b[Ki<mvMeasurements.size()\x1b[m\x1b[K; i++){\n'}
+[9.200077] (orb_slam3_ros2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.255560] (-) TimerEvent: {}
+[9.356172] (-) TimerEvent: {}
+[9.402429] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[9.403012] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.403197] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.403359] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.403515] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.403654] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.403788] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.403919] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.404051] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[9.404179] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[9.404352] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:\x1b[m\x1b[K At global scope:\n'}
+[9.404497] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[9.404659] (orb_slam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[9.404796] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.404932] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[9.405119] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[9.405257] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[9.405411] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[9.405563] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[9.405699] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[9.405829] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.405959] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.406089] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.406219] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.406345] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.406469] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[9.406594] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[9.406718] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.406844] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.406978] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.456327] (-) TimerEvent: {}
+[9.456963] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.458000] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.458231] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.458434] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.458698] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.458868] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.459018] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.459158] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.459295] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[9.459427] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[9.459555] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[9.460008] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[9.460179] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.460321] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[9.460468] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[9.460600] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[9.460734] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[9.460866] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[9.461019] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[9.461197] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.461348] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.461494] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.461701] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.461855] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.461987] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[9.462119] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[9.462246] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.462375] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.462499] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.462620] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.462742] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.462874] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.463002] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.463127] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.463248] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.463370] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.463491] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.463612] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[9.463731] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[9.463851] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[9.463979] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[9.464104] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.464267] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[9.464397] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[9.464522] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[9.464649] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[9.464775] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[9.464901] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[9.465057] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.465187] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.465311] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.465455] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.465693] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.465848] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[9.465981] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[9.466110] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.466234] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.466356] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.556489] (-) TimerEvent: {}
+[9.657109] (-) TimerEvent: {}
+[9.757712] (-) TimerEvent: {}
+[9.858425] (-) TimerEvent: {}
+[9.959101] (-) TimerEvent: {}
+[10.060082] (-) TimerEvent: {}
+[10.160760] (-) TimerEvent: {}
+[10.199366] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[10.201167] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.201390] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.201768] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.201970] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.202124] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.202272] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.202415] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.202552] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.202684] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.202814] (orb_slam3_ros2) StderrLine: {'line': b'/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.202945] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[10.203072] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[10.203211] (orb_slam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[10.203369] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.203508] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[10.204172] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.204352] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.204497] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.204631] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.204763] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.204892] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.205044] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.205183] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.205350] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.205499] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.205649] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.205792] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.205928] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.206061] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.206192] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.259385] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[10.259907] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.260105] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.260261] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.260403] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.260538] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.260672] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.260797] (-) TimerEvent: {}
+[10.261104] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.261302] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.261448] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.261586] (orb_slam3_ros2) StderrLine: {'line': b'/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.261723] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[10.261856] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[10.262051] (orb_slam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[10.262193] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.262330] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[10.262464] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.262593] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.262724] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.262851] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.262979] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.263105] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.263229] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.263355] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.263480] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.263600] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.263750] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.263900] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.264035] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.264168] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.264297] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.320604] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.321424] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.321625] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.321789] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.321980] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.322134] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.322282] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.322423] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.322558] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.322687] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.322816] (orb_slam3_ros2) StderrLine: {'line': b'/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.322975] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[10.323116] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[10.323262] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.323398] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.323531] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[10.323660] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.323786] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.323914] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.324046] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.324173] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.324299] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.324424] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.324583] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.324711] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.324838] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.325022] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.325199] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.325338] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.325475] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.325612] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.325736] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.325862] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.325988] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.326114] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.326238] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.326359] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.326483] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.326608] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.326732] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.326857] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.327005] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[10.327162] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.327297] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.327450] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[10.327584] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.327712] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.327838] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.327959] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.328087] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.328234] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.328362] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.328490] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.328614] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.328741] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.328867] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.329014] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.329152] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.329280] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.329435] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.361009] (-) TimerEvent: {}
+[10.461590] (-) TimerEvent: {}
+[10.468278] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.468827] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.469450] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.469767] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.469937] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.470120] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.470268] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.470407] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.470544] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.470674] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.470804] (orb_slam3_ros2) StderrLine: {'line': b'/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.470959] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[10.471100] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[10.471244] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.471381] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.471513] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[10.471643] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.471770] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.471895] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.472022] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.472151] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.472277] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.472402] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.472527] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.472682] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.472818] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.472954] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.473120] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.473261] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.473390] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.473544] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.498051] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.498648] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.498840] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.498995] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.499139] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.499279] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.499415] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.499549] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.499683] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.499836] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.499973] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[10.500113] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.500246] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.500374] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[10.500526] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.500659] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.500790] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.500920] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.501084] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.501222] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.501352] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.501481] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.501607] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.501732] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.501855] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.501982] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.502109] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.502232] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.502353] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.561734] (-) TimerEvent: {}
+[10.621573] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.622256] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.622485] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.622651] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.622830] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.622979] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.623140] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.623279] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.623414] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.623545] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.623694] (orb_slam3_ros2) StderrLine: {'line': b'/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.623836] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[10.623974] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[10.624117] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.624250] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.624378] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[10.624502] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.624630] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.624753] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.624875] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.625027] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.625173] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.625298] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.625419] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.625547] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.625669] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.625829] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.625962] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.626099] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.626235] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.626365] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.626488] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.626614] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.626739] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.626897] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.627047] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.627177] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.627304] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.629315] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.629767] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.629956] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.630124] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[10.630293] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.630448] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.630596] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[10.630739] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.630880] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.631064] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.631210] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.631350] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.631478] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[10.631605] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[10.631731] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.631859] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.631983] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.632104] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[10.632223] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[10.632342] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.632464] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.632722] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.661888] (-) TimerEvent: {}
+[10.762478] (-) TimerEvent: {}
+[10.863055] (-) TimerEvent: {}
+[10.963647] (-) TimerEvent: {}
+[11.051548] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[11.052205] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[11.052525] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[11.052807] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[11.053019] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[11.053168] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.053340] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.053509] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.053660] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[11.053797] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[11.053930] (orb_slam3_ros2) StderrLine: {'line': b'/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.054063] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[11.054192] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[11.054343] (orb_slam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[11.054476] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.054603] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[11.054726] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[11.054849] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[11.054973] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[11.055202] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[11.056032] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[11.056310] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[11.056561] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[11.056807] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.057077] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.057324] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.057476] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[11.057635] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[11.057767] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.057897] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[11.058022] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.063779] (-) TimerEvent: {}
+[11.116645] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[11.117630] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[11.117959] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[11.118241] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[11.118504] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[11.118756] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.119000] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.119316] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.119505] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[11.119644] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[11.119776] (orb_slam3_ros2) StderrLine: {'line': b'/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.119909] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[11.120038] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[11.120173] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[11.120302] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.120452] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[11.120582] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[11.120710] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[11.120833] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[11.120955] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[11.121121] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[11.121255] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[11.121382] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[11.121547] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.121776] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.122012] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.122252] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[11.122476] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[11.122709] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.122940] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[11.123170] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.123398] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[11.123626] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[11.123859] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[11.124044] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[11.124163] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[11.124311] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.124455] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.124602] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.124747] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[11.124872] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[11.125008] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[11.125148] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[11.125275] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.125462] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[11.125599] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[11.125729] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[11.125856] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[11.125979] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[11.126101] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[11.126223] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[11.126342] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[11.126460] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.126579] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.126701] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.126822] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[11.126944] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[11.127331] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.127645] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[11.127882] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.163962] (-) TimerEvent: {}
+[11.207092] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[11.209191] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[11.209525] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[11.209725] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[11.209905] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[11.210072] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.210270] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.210447] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.210610] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[11.210763] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[11.210953] (orb_slam3_ros2) StderrLine: {'line': b'/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.211140] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[11.211288] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[11.211427] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[11.211558] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.211687] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[11.211811] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[11.211954] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[11.212086] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[11.212234] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[11.212364] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[11.212489] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[11.212614] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[11.212738] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.212860] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.213000] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.213134] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[11.213257] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[11.213378] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.213498] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[11.213629] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.236801] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[11.237405] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[11.237591] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[11.237751] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[11.237926] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[11.238075] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.238219] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.238382] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.238561] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[11.238732] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[11.238932] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[11.239144] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[11.239313] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.239473] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[11.239632] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[11.239793] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[11.239951] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[11.240107] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[11.240266] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[11.240424] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[11.240576] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[11.240703] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.240824] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.240944] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.241093] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[11.241222] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[11.241351] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.241476] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[11.241622] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.264109] (-) TimerEvent: {}
+[11.365138] (-) TimerEvent: {}
+[11.465717] (-) TimerEvent: {}
+[11.566302] (-) TimerEvent: {}
+[11.666901] (-) TimerEvent: {}
+[11.767639] (-) TimerEvent: {}
+[11.868375] (-) TimerEvent: {}
+[11.969055] (-) TimerEvent: {}
+[12.069619] (-) TimerEvent: {}
+[12.170206] (-) TimerEvent: {}
+[12.270767] (-) TimerEvent: {}
+[12.371368] (-) TimerEvent: {}
+[12.472100] (-) TimerEvent: {}
+[12.572742] (-) TimerEvent: {}
+[12.595865] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[12.596365] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[12.596558] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[12.596896] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[12.597065] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[12.597236] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[12.597381] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.597520] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.597663] (orb_slam3_ros2) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[12.597791] (orb_slam3_ros2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.597914] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.598370] (orb_slam3_ros2) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[12.598631] (orb_slam3_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.598829] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[12.599038] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[12.599216] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[12.599382] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[12.599565] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[12.599729] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[12.599884] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.600039] (orb_slam3_ros2) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[12.600192] (orb_slam3_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.600338] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[12.600484] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[12.600630] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[12.600774] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[12.600919] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[12.601223] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/src/ros_mono.cc:17\x1b[m\x1b[K:\n'}
+[12.601412] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.601591] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.601775] (orb_slam3_ros2) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[12.601948] (orb_slam3_ros2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.602117] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.602318] (orb_slam3_ros2) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[12.602513] (orb_slam3_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.603529] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:53:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.603752] (orb_slam3_ros2) StderrLine: {'line': b'   53 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),\n'}
+[12.603903] (orb_slam3_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.604053] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.604203] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.604348] (orb_slam3_ros2) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[12.604477] (orb_slam3_ros2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.604603] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.604761] (orb_slam3_ros2) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[12.604911] (orb_slam3_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.605074] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/../../../include/CameraModels/KannalaBrandt8.h:59:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.605211] (orb_slam3_ros2) StderrLine: {'line': b'   59 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[12.605426] (orb_slam3_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.672961] (-) TimerEvent: {}
+[12.773666] (-) TimerEvent: {}
+[12.874306] (-) TimerEvent: {}
+[12.974919] (-) TimerEvent: {}
+[13.075649] (-) TimerEvent: {}
+[13.176249] (-) TimerEvent: {}
+[13.276813] (-) TimerEvent: {}
+[13.377431] (-) TimerEvent: {}
+[13.478151] (-) TimerEvent: {}
+[13.578854] (-) TimerEvent: {}
+[13.679415] (-) TimerEvent: {}
+[13.779981] (-) TimerEvent: {}
+[13.880578] (-) TimerEvent: {}
+[13.981291] (-) TimerEvent: {}
+[14.082023] (-) TimerEvent: {}
+[14.182672] (-) TimerEvent: {}
+[14.283406] (-) TimerEvent: {}
+[14.384094] (-) TimerEvent: {}
+[14.484738] (-) TimerEvent: {}
+[14.585327] (-) TimerEvent: {}
+[14.686023] (-) TimerEvent: {}
+[14.786741] (-) TimerEvent: {}
+[14.887333] (-) TimerEvent: {}
+[14.987974] (-) TimerEvent: {}
+[15.088621] (-) TimerEvent: {}
+[15.189441] (-) TimerEvent: {}
+[15.290145] (-) TimerEvent: {}
+[15.390778] (-) TimerEvent: {}
+[15.491478] (-) TimerEvent: {}
+[15.592229] (-) TimerEvent: {}
+[15.692951] (-) TimerEvent: {}
+[15.793696] (-) TimerEvent: {}
+[15.894394] (-) TimerEvent: {}
+[15.995095] (-) TimerEvent: {}
+[16.095833] (-) TimerEvent: {}
+[16.196532] (-) TimerEvent: {}
+[16.297297] (-) TimerEvent: {}
+[16.398020] (-) TimerEvent: {}
+[16.498741] (-) TimerEvent: {}
+[16.599446] (-) TimerEvent: {}
+[16.700008] (-) TimerEvent: {}
+[16.800558] (-) TimerEvent: {}
+[16.901126] (-) TimerEvent: {}
+[17.001880] (-) TimerEvent: {}
+[17.102614] (-) TimerEvent: {}
+[17.203309] (-) TimerEvent: {}
+[17.303975] (-) TimerEvent: {}
+[17.404706] (-) TimerEvent: {}
+[17.505459] (-) TimerEvent: {}
+[17.606128] (-) TimerEvent: {}
+[17.706763] (-) TimerEvent: {}
+[17.807558] (-) TimerEvent: {}
+[17.908281] (-) TimerEvent: {}
+[18.009041] (-) TimerEvent: {}
+[18.109741] (-) TimerEvent: {}
+[18.210467] (-) TimerEvent: {}
+[18.311186] (-) TimerEvent: {}
+[18.411948] (-) TimerEvent: {}
+[18.512714] (-) TimerEvent: {}
+[18.613491] (-) TimerEvent: {}
+[18.714198] (-) TimerEvent: {}
+[18.814783] (-) TimerEvent: {}
+[18.915455] (-) TimerEvent: {}
+[19.016187] (-) TimerEvent: {}
+[19.116780] (-) TimerEvent: {}
+[19.217568] (-) TimerEvent: {}
+[19.318449] (-) TimerEvent: {}
+[19.419326] (-) TimerEvent: {}
+[19.520092] (-) TimerEvent: {}
+[19.621743] (-) TimerEvent: {}
+[19.722385] (-) TimerEvent: {}
+[19.822948] (-) TimerEvent: {}
+[19.923513] (-) TimerEvent: {}
+[20.024076] (-) TimerEvent: {}
+[20.124648] (-) TimerEvent: {}
+[20.225229] (-) TimerEvent: {}
+[20.325804] (-) TimerEvent: {}
+[20.426385] (-) TimerEvent: {}
+[20.526980] (-) TimerEvent: {}
+[20.627552] (-) TimerEvent: {}
+[20.728125] (-) TimerEvent: {}
+[20.828704] (-) TimerEvent: {}
+[20.929317] (-) TimerEvent: {}
+[21.029880] (-) TimerEvent: {}
+[21.130433] (-) TimerEvent: {}
+[21.231011] (-) TimerEvent: {}
+[21.331582] (-) TimerEvent: {}
+[21.432247] (-) TimerEvent: {}
+[21.532809] (-) TimerEvent: {}
+[21.633410] (-) TimerEvent: {}
+[21.734182] (-) TimerEvent: {}
+[21.834824] (-) TimerEvent: {}
+[21.935396] (-) TimerEvent: {}
+[22.036027] (-) TimerEvent: {}
+[22.136648] (-) TimerEvent: {}
+[22.237258] (-) TimerEvent: {}
+[22.337853] (-) TimerEvent: {}
+[22.438443] (-) TimerEvent: {}
+[22.539023] (-) TimerEvent: {}
+[22.639603] (-) TimerEvent: {}
+[22.740180] (-) TimerEvent: {}
+[22.840796] (-) TimerEvent: {}
+[22.941417] (-) TimerEvent: {}
+[23.041996] (-) TimerEvent: {}
+[23.142580] (-) TimerEvent: {}
+[23.243157] (-) TimerEvent: {}
+[23.343731] (-) TimerEvent: {}
+[23.444306] (-) TimerEvent: {}
+[23.544871] (-) TimerEvent: {}
+[23.645464] (-) TimerEvent: {}
+[23.746039] (-) TimerEvent: {}
+[23.846609] (-) TimerEvent: {}
+[23.947183] (-) TimerEvent: {}
+[24.047757] (-) TimerEvent: {}
+[24.148343] (-) TimerEvent: {}
+[24.248950] (-) TimerEvent: {}
+[24.349558] (-) TimerEvent: {}
+[24.450129] (-) TimerEvent: {}
+[24.550719] (-) TimerEvent: {}
+[24.651323] (-) TimerEvent: {}
+[24.751912] (-) TimerEvent: {}
+[24.852490] (-) TimerEvent: {}
+[24.953072] (-) TimerEvent: {}
+[25.053645] (-) TimerEvent: {}
+[25.154229] (-) TimerEvent: {}
+[25.254810] (-) TimerEvent: {}
+[25.355395] (-) TimerEvent: {}
+[25.455987] (-) TimerEvent: {}
+[25.556560] (-) TimerEvent: {}
+[25.657105] (-) TimerEvent: {}
+[25.757669] (-) TimerEvent: {}
+[25.858258] (-) TimerEvent: {}
+[25.958851] (-) TimerEvent: {}
+[26.059444] (-) TimerEvent: {}
+[26.160012] (-) TimerEvent: {}
+[26.260607] (-) TimerEvent: {}
+[26.361222] (-) TimerEvent: {}
+[26.461828] (-) TimerEvent: {}
+[26.562409] (-) TimerEvent: {}
+[26.662996] (-) TimerEvent: {}
+[26.763571] (-) TimerEvent: {}
+[26.864152] (-) TimerEvent: {}
+[26.964751] (-) TimerEvent: {}
+[27.065617] (-) TimerEvent: {}
+[27.166220] (-) TimerEvent: {}
+[27.266805] (-) TimerEvent: {}
+[27.367381] (-) TimerEvent: {}
+[27.467976] (-) TimerEvent: {}
+[27.568549] (-) TimerEvent: {}
+[27.669107] (-) TimerEvent: {}
+[27.769689] (-) TimerEvent: {}
+[27.870253] (-) TimerEvent: {}
+[27.970823] (-) TimerEvent: {}
+[28.071389] (-) TimerEvent: {}
+[28.171969] (-) TimerEvent: {}
+[28.272536] (-) TimerEvent: {}
+[28.373100] (-) TimerEvent: {}
+[28.473689] (-) TimerEvent: {}
+[28.574256] (-) TimerEvent: {}
+[28.674833] (-) TimerEvent: {}
+[28.775404] (-) TimerEvent: {}
+[28.875983] (-) TimerEvent: {}
+[28.976552] (-) TimerEvent: {}
+[29.077133] (-) TimerEvent: {}
+[29.177713] (-) TimerEvent: {}
+[29.278277] (-) TimerEvent: {}
+[29.378845] (-) TimerEvent: {}
+[29.479410] (-) TimerEvent: {}
+[29.579996] (-) TimerEvent: {}
+[29.680575] (-) TimerEvent: {}
+[29.781130] (-) TimerEvent: {}
+[29.881725] (-) TimerEvent: {}
+[29.982314] (-) TimerEvent: {}
+[30.082879] (-) TimerEvent: {}
+[30.183436] (-) TimerEvent: {}
+[30.283995] (-) TimerEvent: {}
+[30.384557] (-) TimerEvent: {}
+[30.485212] (-) TimerEvent: {}
+[30.585780] (-) TimerEvent: {}
+[30.686378] (-) TimerEvent: {}
+[30.786952] (-) TimerEvent: {}
+[30.887532] (-) TimerEvent: {}
+[30.988166] (-) TimerEvent: {}
+[31.088736] (-) TimerEvent: {}
+[31.189305] (-) TimerEvent: {}
+[31.289852] (-) TimerEvent: {}
+[31.390411] (-) TimerEvent: {}
+[31.490982] (-) TimerEvent: {}
+[31.591552] (-) TimerEvent: {}
+[31.692120] (-) TimerEvent: {}
+[31.793354] (-) TimerEvent: {}
+[31.893942] (-) TimerEvent: {}
+[31.994543] (-) TimerEvent: {}
+[32.095120] (-) TimerEvent: {}
+[32.195743] (-) TimerEvent: {}
+[32.296500] (-) TimerEvent: {}
+[32.397273] (-) TimerEvent: {}
+[32.498004] (-) TimerEvent: {}
+[32.598729] (-) TimerEvent: {}
+[32.699513] (-) TimerEvent: {}
+[32.800289] (-) TimerEvent: {}
+[32.901029] (-) TimerEvent: {}
+[33.001734] (-) TimerEvent: {}
+[33.102505] (-) TimerEvent: {}
+[33.203262] (-) TimerEvent: {}
+[33.304029] (-) TimerEvent: {}
+[33.404760] (-) TimerEvent: {}
+[33.505519] (-) TimerEvent: {}
+[33.606261] (-) TimerEvent: {}
+[33.706995] (-) TimerEvent: {}
+[33.807731] (-) TimerEvent: {}
+[33.908470] (-) TimerEvent: {}
+[34.009260] (-) TimerEvent: {}
+[34.110288] (-) TimerEvent: {}
+[34.211067] (-) TimerEvent: {}
+[34.311801] (-) TimerEvent: {}
+[34.412535] (-) TimerEvent: {}
+[34.513319] (-) TimerEvent: {}
+[34.614061] (-) TimerEvent: {}
+[34.714813] (-) TimerEvent: {}
+[34.815573] (-) TimerEvent: {}
+[34.916309] (-) TimerEvent: {}
+[35.017048] (-) TimerEvent: {}
+[35.117781] (-) TimerEvent: {}
+[35.218519] (-) TimerEvent: {}
+[35.319250] (-) TimerEvent: {}
+[35.419986] (-) TimerEvent: {}
+[35.520783] (-) TimerEvent: {}
+[35.621573] (-) TimerEvent: {}
+[35.722617] (-) TimerEvent: {}
+[35.823364] (-) TimerEvent: {}
+[35.924113] (-) TimerEvent: {}
+[36.024900] (-) TimerEvent: {}
+[36.125696] (-) TimerEvent: {}
+[36.226447] (-) TimerEvent: {}
+[36.327206] (-) TimerEvent: {}
+[36.427829] (-) TimerEvent: {}
+[36.528415] (-) TimerEvent: {}
+[36.617508] (orb_slam3_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mono\x1b[0m\n'}
+[36.628557] (-) TimerEvent: {}
+[36.729213] (-) TimerEvent: {}
+[36.829810] (-) TimerEvent: {}
+[36.930447] (-) TimerEvent: {}
+[37.031036] (-) TimerEvent: {}
+[37.131616] (-) TimerEvent: {}
+[37.232214] (-) TimerEvent: {}
+[37.332800] (-) TimerEvent: {}
+[37.433386] (-) TimerEvent: {}
+[37.533951] (-) TimerEvent: {}
+[37.612175] (orb_slam3_ros2) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5\n'}
+[37.612874] (orb_slam3_ros2) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.5\n'}
+[37.613266] (orb_slam3_ros2) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5\n'}
+[37.632210] (orb_slam3_ros2) StdoutLine: {'line': b'[100%] Built target mono\n'}
+[37.634067] (-) TimerEvent: {}
+[37.655586] (orb_slam3_ros2) CommandEnded: {'returncode': 0}
+[37.707530] (orb_slam3_ros2) JobProgress: {'identifier': 'orb_slam3_ros2', 'progress': 'install'}
+[37.729832] (orb_slam3_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2'], 'cwd': '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.21.233 52089 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/projects/ORB_SLAM3/lib:/home/rabyte/projects/ORB_SLAM3/lib:/home/nvidia/projects/a2rl/install/fc_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/projects/ORB_SLAM3'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install:/home/nvidia/projects/a2rl/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2:/home/nvidia/projects/a2rl/install/data_logger_interface:/home/nvidia/projects/a2rl/install/fc_interface:/home/nvidia/projects/a2rl/install/camera_interface:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/orb_slam3_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.21.233 52089 192.168.21.81 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/projects/a2rl/install/data_logger_interface/lib/python3.8/site-packages:/home/nvidia/projects/a2rl/install/fc_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2:/home/nvidia/projects/a2rl/install/fc_interface:/home/nvidia/projects/a2rl/install/camera_interface:/home/nvidia/projects/a2rl/install/data_logger_interface:/opt/ros/foxy')]), 'shell': False}
+[37.734168] (-) TimerEvent: {}
+[37.749779] (orb_slam3_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.750649] (orb_slam3_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.751640] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib/orb_slam3_ros2/mono_inertial\n'}
+[37.752176] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/lib/orb_slam3_ros2/mono\n'}
+[37.752848] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/ament_index/resource_index/package_run_dependencies/orb_slam3_ros2\n'}
+[37.753527] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/ament_index/resource_index/parent_prefix_path/orb_slam3_ros2\n'}
+[37.754061] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/ament_prefix_path.sh\n'}
+[37.754619] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/ament_prefix_path.dsv\n'}
+[37.755212] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/path.sh\n'}
+[37.755716] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/path.dsv\n'}
+[37.756277] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.bash\n'}
+[37.756909] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.sh\n'}
+[37.757430] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.zsh\n'}
+[37.757953] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.dsv\n'}
+[37.758368] (orb_slam3_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.dsv\n'}
+[37.778512] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/ament_index/resource_index/packages/orb_slam3_ros2\n'}
+[37.779110] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/cmake/orb_slam3_ros2Config.cmake\n'}
+[37.779444] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/cmake/orb_slam3_ros2Config-version.cmake\n'}
+[37.779773] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/projects/ORB_SLAM3/Examples/ROS/ORB_SLAM3/install/orb_slam3_ros2/share/orb_slam3_ros2/package.xml\n'}
+[37.783995] (orb_slam3_ros2) CommandEnded: {'returncode': 0}
+[37.834405] (-) TimerEvent: {}
+[37.889851] (orb_slam3_ros2) JobEnded: {'identifier': 'orb_slam3_ros2', 'rc': 0}
+[37.893142] (-) EventReactorShutdown: {}
